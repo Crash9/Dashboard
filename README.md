@@ -1,5 +1,5 @@
 # Dashboard
-Diseño responsive de un dashboard mostrando diferentes gráficos.
+Diseño responsive hecho en ASP.NET 5.0, de un dashboard mostrando diferentes gráficos.
 
 Herramientas utilizadas:
 
