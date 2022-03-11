@@ -1,0 +1,76 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.col{
+      border: 1px solid rgba(128, 128, 128, 0.418);
+}
+#foto{
+  width: -webkit-fill-available;
+  height: inherit;
+}
+#foto{
+  margin: 0 auto;
+}
+#botonCambioFoto{
+  display:block;
+  margin-top: -37px;
+}
+@media (max-width: 600px) {
+  .chart-container .chart-container2 {
+    position: relative;
+    display: table-cell;
+    margin: auto;
+  }
+  .chart-container .chart-container2{
+    height: 65vh;
+    width: 90vw;
+  }
+}
+@media (min-width: 800px) {
+  .chart-container .chart-container2 {
+    position: relative;
+    display: table-cell;
+    margin: auto;
+  }
+  .chart-container{
+    height: 65vh;
+    width: 45vw;
+  }
+  .chart-container2 {
+    height: 65vh !important;
+    width: 45vw !important;
+  }
+  .middle{
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1000px) {
+  .chart-container .chart-container2 {
+    position: relative;
+    display: table-cell;
+    margin: auto;
+  }
+  .chart-container {
+    height: 60vh;
+    width: 30vw;
+  }
+  .chart-container2 {
+    height: 65vh !important;
+    width: 47vw !important;
+  }
+}
